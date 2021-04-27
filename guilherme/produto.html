@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Título da página-->
+        <title>Cadastro de produto</title>
+    </head>
+    <body>
+        <!---Link para voltar a página menu-->
+        <a href="../index.html" style="text-decoration: none;">Voltar para o menu</a>
+
+        <!--Formulário da página produto-->
+        <h2>Formulário Produto</h2>
+        <form action="/action_page.php" id="formcliente">
+            <!--Campo para inserir o  seu nome-->
+            <label for="fname">Nome:</label><br>
+            <input type="text"  id="nome" name="nome" value=""><br>
+
+            <!--Campo para definir senha-->
+            <label for="fsenha">Definir senha:</label><br>
+            <input type="password" id="senha" name="senha"><br>
+
+            <!--Campo para inserir o código do produto-->
+            <label for="fcpf">código:</label><br>
+            <input type="number"  id="nome" name="nome" value=""><br>
+
+            <!--Campo para inserir o peso do produto-->
+            <label for="fname">peso(em kg):</label><br>
+            <input type="number"  id="nome" name="nome" value="" maxlength="3"><br>
+
+            <!--Campo para inserir o preço do produto-->
+            <label for="fname">preço R$:</label><br>
+            <input type="number"  id="nome" name="nome" value=""><br>
+
+            <!--Campo para inserir uma mensagem-->
+            <label for="msg">Mensagem:</label><br>      
+            <textarea id="msg"></textarea>
+        </form>
+
+        <!--Botão que limpa dos dados inseridos no formulário produto-->
+        <button type="reset" form="formcliente" >
+            Limpar
+        </button>
+
+        <!--Botão que salva os dados inseridos no formulário produto-->
+        <button type="button">
+            Salvar
+        </button>
+
+        <h1>Adriano dos Santos Lisboa</h1>
+        <h1>Guilherme Vinicius Tonioti</h1>
+    </body>
+</html>

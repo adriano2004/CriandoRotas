@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <!--Título da página-->
+            <title>Cadastro de Clientes</title>
+        </head>
+        <body>
+            <!--Link para voltar para página menu -->
+            <a href="../index.html" style="text-decoration: none;">voltar para o menu</a>
+
+            <!--Formulário da página cliente-->
+            <h2>Formulário cliente</h2>
+            
+            <form action="/action_page.php" id="formcliente">
+                <!--Campo para inserir o seu nome-->
+                <label for="fname">Nome:</label><br>
+                <input type="text"  id="nome" name="nome" value=""><br>
+
+                <!--Campo para definir senha-->
+                <label for="fsenha">Definir senha:</label><br>
+                <input type="password" id="senha" name="senha"><br>
+
+                <!--Campo para inserir o seu CPF-->
+                <label for="fcpf">CPF:</label><br>
+                <input type="text"  id="nome" name="nome" value=""><br>
+
+                <!--Campo para inserir a seu idade-->
+                <label for="fname">idade:</label><br>
+                <input type="text"  id="nome" name="nome" value="" maxlength="3"><br>
+
+                <!--Campo para inserir o seu email-->
+                <label for="fname">email:</label><br>
+                <input type="text"  id="nome" name="nome" value=""><br>
+
+                <!--Campo para inserir uma mensagem-->
+                <label for="msg">Mensagem:</label><br>      
+                <textarea id="msg"></textarea>
+            </form>
+
+            <!--Botão para limpar os dados inseridos do formulário cliente-->
+            <button type="reset" form="formcliente" >
+                Limpar
+            </button>
+            
+            <!--Botão para salvar os dados inseridos no formulário-->
+            <button type="button">
+                Salvar
+            </button>
+
+            <h1>Adriano dos Santos Lisboa</h1>
+            <h1>Guilherme Vinicius Tonioti</h1>
+
+        </body>
+</html>
